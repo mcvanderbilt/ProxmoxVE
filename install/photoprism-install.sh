@@ -50,6 +50,8 @@ PHOTOPRISM_SITE_CAPTION='https://Helper-Scripts.com'
 PHOTOPRISM_STORAGE_PATH='/opt/photoprism/storage'
 PHOTOPRISM_ORIGINALS_PATH='/opt/photoprism/photos/originals'
 PHOTOPRISM_IMPORT_PATH='/opt/photoprism/photos/import'
+PHOTOPRISM_DETECTNSFA='true'
+PHOTOPRISM_UPLOADNSVW='true'
 EOF
 ln -sf /opt/photoprism/bin/photoprism /usr/local/bin/photoprism
 msg_ok "Installed PhotoPrism"
